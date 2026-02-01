@@ -30,7 +30,7 @@ body {
 
     .buttons {
       position: relative;
-      height: 80px;
+      height: 60px;
     }
 
     button {
@@ -63,7 +63,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: linear-gradient(135deg, #F74D70, #fbdde7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,6 @@ body {
 }
 
 .modal-content {
-  background: linear-gradient(135deg, #F74D70, #fbdde7);
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -107,6 +106,7 @@ body {
     opacity: 1;
   }
 }
+
 
 
 
