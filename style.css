@@ -81,7 +81,7 @@ body {
   padding: 30px;
   border-radius: 20px;
   text-align: center;
-  width: 280px;
+  width: 450px;
   animation: pop 0.3s ease;
 }
 
@@ -106,3 +106,4 @@ body {
     opacity: 1;
   }
 }
+
