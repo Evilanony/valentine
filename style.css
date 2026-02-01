@@ -30,7 +30,7 @@ body {
 
     .buttons {
       position: relative;
-      height: 60px;
+      height: 80px;
     }
 
     button {
@@ -107,6 +107,7 @@ body {
     opacity: 1;
   }
 }
+
 
 
 
