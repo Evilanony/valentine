@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>valentinovo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="card">
+    <div class="emoji">😺💗</div>
+    <h2>Will you be my Valentine?</h2>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+  </div>
+
+  <script>
+    const noBtn = document.getElementById("noBtn");
+
+    noBtn.addEventListener("mouseenter", () => {
+      const card = document.querySelector(".card");
+
+      const maxX = card.clientWidth - noBtn.offsetWidth;
+      const maxY = card.clientHeight - noBtn.offsetHeight;
+
+      const randomX = Math.random() * maxX;
+      const randomY = Math.random() * maxY;
+
+      noBtn.style.left = randomX + "px";
+      noBtn.style.top = randomY + "px";
+    });
+
+    
+    
+  </script>
+
+  <div class="modal" id="modal">
+  <div class="modal-content">
+    <h2>YAY 💖</h2>
+    <p>You just made my day!</p>
+    <button id="closeModal">Close</button>
+  </div>
+</div>
+<script>
+    const modal = document.getElementById("modal");
+const closeModal = document.getElementById("closeModal");
+
+document.getElementById("yesBtn").addEventListener("click", () => {
+  modal.classList.add("show");
+});
+
+closeModal.addEventListener("click", () => {
+  modal.classList.remove("show");
+});
+
+</script>
+</body>
