@@ -47,6 +47,7 @@ body {
       color: white;
       left: 50%;
       transform: translateX(-100%);
+      padding: 30px 40px;
     }
 
     #noBtn {
@@ -106,4 +107,5 @@ body {
     opacity: 1;
   }
 }
+
 
